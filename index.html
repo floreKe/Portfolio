@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="leftNav">
+            <div class="logo">
+                <img src="assets/myLogo_transparent.png">
+                <a class="me" href="index.html">.me</a>
+            </div>
+        </ul>
+        
+        <ul class="rightNav">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="main" id="home">
+            <div class='light x1'></div>
+            <div class='light x2'></div>
+            <div class='light x3'></div>
+            <div class='light x4'></div>
+            <div class='light x5'></div>
+            <div class='light x6'></div>
+            <div class='light x7'></div>
+            <div class='light x8'></div>
+            <div class='light x9'></div>
+            <div class="personal-info">
+                <div class="name">
+                    <h5>Hello, I'm<br/>
+                    Kevin
+                    Flores</h5>
+                    <span id="typewriter"></span><span id="cursor">|</span>
+                </div>
+            </div>
+            <img src="./assets/developer.svg" alt="developer photo" class="developer">
+            <div class="scrolldown" style="--color: skyblue">
+                <div class="chevrons">
+                    <div class="chevrondown"></div>
+                    <div class="chevrondown"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about" class="section">
+            <div class="about-sec">
+                <img src="./assets/ProPhotoOfMe-removebg-preview.png" alt="alt" class="aboutImg">
+                <h2>Looking For an <a href="#" class="about_link">Opportunity</a></h2>
+                <p>As a recent computer science graduate, I wanted to branch out from algorithms
+                    to a more visual creative career. With my education, problem solving skills and ability to communicate
+                    in a professional standpoint, I am able to help with various aspects in projects. 
+                </p>
+
+                <button class="ui-btn">
+                    <a href="./CV.pdf">
+                        <span>
+                            DOWNLOAD CV
+                        </span>
+                    </a>
+                </button>
+            </div>
+        </div>
+        <div id="skills" class="section">
+            <div class="skills-header">SKILLS</div>
+            <div class="skills-header2">What I Offer</div>
+            <div class="block1">
+                <i class="fa-solid fa-code" id="i1" style="color: #eeeeee; border: 2px black;"></i>
+                <h3>Technical Proficiency</h3>
+                <p>I'm skilled in HTML, CSS, JavaScript, and frameworks like React. I'm also familiar with TypeScript, ES6/ES7 features, and modern JS libraries.</p>
+            </div>
+            <div class="block2">
+                <i class="fa-solid fa-box-open" id="i2" style="color: #eeeeee; border: 2px black;"></i>
+                <h3>Back-end Development</h3>
+                <p>While I'm primarily focused on front-end, I'm working towards full-stack development. I have experience with RESTful and SOAP services, as well as SQL databases like MySQL and PostgreSQL.</p>
+            </div>
+            <div class="block3">
+                <i class="fa-solid fa-user-group" id="i3" style="color: #eeeeee; border: 2px black;"></i>
+                <h3>Communication and Interacting</h3>
+                <p>I believe in effective collaboration and feedback. I'm proficient in project management tools like Slack and Discord, ensuring consistent updates within timelines.</p>
+            </div>
+            <div class="block4">
+                <i class="fa-brands fa-artstation" id="i4" style="color: #eeeeee; border: 2px black;"></i>
+                <h3>Web Design and Flow</h3>
+                <p>I create responsive web designs using CSS grid, flexbox, and media queries. My focus is on building user-friendly interfaces and optimizing website performance for accessibility.</p>
+            </div>
+            <div class="scroll-parent">
+                <div class="scroll-element primary">
+                    <img src="./assets/htmlLogo.svg" />
+                    <img src="./assets/cssLogo.svg" />
+                    <img src="./assets/JSLogo.svg" />
+                    <img src="./assets/reactLogo.svg" />
+                    <img src="./assets/javaLogo.svg" />
+                    <img src="./assets/pythonLogo.svg" />
+                    <img src="./assets/nodeLogo.svg" />
+                </div>
+                <div class="scroll-element secondary">
+                    <img src="./assets/htmlLogo.svg" />
+                    <img src="./assets/cssLogo.svg" />
+                    <img src="./assets/JSLogo.svg" />
+                    <img src="./assets/reactLogo.svg" />
+                    <img src="./assets/javaLogo.svg" />
+                    <img src="./assets/pythonLogo.svg" />
+                    <img src="./assets/nodeLogo.svg" />
+                </div>
+            </div>
+        </div>
+        <div id="projects" class="section">
+            <h1>PROJECTS</h1>
+            <p>Here are a couple of projects that I worked on. Doing this helped me learn
+                key components while also challenging what i have retained.
+            </p>
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel">
+                    <li class="card">
+                        <div class="img">
+                            <img src="./assets/darkblue.png" alt="img" draggable="false">
+                        </div>
+                        <h2>Test1</h2>
+                        <span>Test</span>
+                    </li>
+                    <li class="card">
+                        <div class="img">
+                            <img src="./assets/darkblue.png" alt="img" draggable="false">
+                        </div>
+                        <h2>Test2</h2>
+                        <span>Test</span>
+                    </li>
+                    <li class="card">
+                        <div class="img">
+                            <img src="./assets/R_logo.png" alt="img" draggable="false">
+                        </div>
+                        <h2>Test3</h2>
+                        <span>Test</span>
+                    </li>
+                    <li class="card">
+                        <div class="img">
+                            <img src="./assets/darkblue.png" alt="img" draggable="false">
+                        </div>
+                        <h2>Test4</h2>
+                        <span>Test</span>
+                    </li>
+                </ul>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="section" id="contact">
+            <div class="contact-info">
+                <h3>Keep in Touch</h3>
+                <p>If you have any questions pleaes feel free to fill out the form below</p>
+            </div>
+            <form action="mailto:floreskevinjo@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d398827.08165900345!2d-90.57311337716173!3d38.65263787515334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8b4a9faed8ef9%3A0xbe39eaca22bbe05b!2sSt.%20Louis%2C%20MO!5e0!3m2!1sen!2sus!4v1714861622434!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div id="footer" class="section">
+            <p>Designed & Built By Kevin Flores. Source code is located on GitHub</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/kevin-flores-1277a4200/">LinkedIn</a></li>
+                <li><a href="https://github.com/floreKe">GitHub</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
