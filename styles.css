@@ -752,7 +752,7 @@ nav.navbar{
       user-select: none;
     }
 
-    .carousel :where(.card, .img){
+    .carousel :where(.card){
       display: flex;
       justify-content: center;
       align-items: center;
@@ -771,27 +771,40 @@ nav.navbar{
       border-radius: 8px;
     }
 
-    .carousel .card .img{
-      background: #75ABAE;
-      height: auto;
-      width: auto;
+    .carousel .card .top-section{
+      width: 100%;
+      border-bottom: 1px solid #eeeeee;
+      height: 75%;
+      overflow: hidden;
     }
 
-    .card .img img{
-      width: auto;
-      max-width: 500px;
-      height: 200px;
-      object-fit: cover;
+    .carousel .card .bottom-section{
+      padding: 15px;
+      height: 25%;
+    }
+
+    .carousel .card .top-section img{
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .carousel .card img{
+      width: 100%;
+      max-width: 100%;
+      max-height: 100%;
+      height: 100%;
+      object-fit: contain;
+      border-radius: 8px 8px 0 0;
     }
 
     .carousel .card h2{
       font-weight: 500;
       font-size: 1.56rem;
-      margin: 30px 0 5px;
+      margin: 10px 0;
     }
 
     .carousel .card span{
-      color: #75ABAE;
+      color: white;
       font-size: 1.31rem;
     }
 
