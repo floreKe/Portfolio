@@ -770,21 +770,21 @@ nav.navbar{
       display: flex;
     }
 
-    .carousel .card .right-section{
+    .carousel .card .left-section{
       width: 75%;
       height: 100%;
       overflow: hidden;
       border-right: 2px solid #eeeeee;
     }
 
-    .carousel .card .left-section{
+    .carousel .card .right-section{
       padding: 15px;
       height: 100%;
       width: 25%;
       align-items: center;
     }
 
-    .carousel .card .right-section img{
+    .carousel .card .left-section img{
       height: 100%;
       width: 100%;
       object-fit: cover;
@@ -805,7 +805,7 @@ nav.navbar{
       font-size: 1.15rem;
     }
 
-    .carousel .card .left-section svg{
+    .carousel .card .right-section svg{
       display: block;
       height: 40px;
       width: 40px;
@@ -813,11 +813,11 @@ nav.navbar{
       margin-right:auto;
     }
 
-    .carousel .card .left-section svg:hover{
+    .carousel .card .right-section svg:hover{
       fill: #75ABAE;
     }
 
-    .carousel .card .left-section ul{
+    .carousel .card .right-section ul{
       flex-wrap: wrap;
       display: flex;
       margin-top: .5rem;
@@ -826,12 +826,12 @@ nav.navbar{
       padding-top: 10px;
     }
 
-    .carousel .card .left-section .left-list{
+    .carousel .card .right-section .right-list{
       margin-top: .5rem;
       margin-right: .375rem;
     }
 
-    .carousel .card .left-section .list-content{
+    .carousel .card .right-section .list-content{
       color: #75ABAE;
       line-height: 1.25rem;
       font-weight: 500;
