@@ -250,13 +250,14 @@ nav.navbar{
       width: 80%;
       height: 100vh;
       margin-top: 5%;
+      padding-top: 150px;
       position: relative;
     }
 
     .aboutImg{
       width: 20%;
       height: auto;
-      position: relative;
+      position: absolute;
       top: -40px;
       left: -70px;
       border-radius : 50%;
@@ -265,7 +266,7 @@ nav.navbar{
     }
 
     .about-sec h2{
-      margin-top: -10%;
+      margin-top: 175px;
       padding: 10px;
       color: #eeeeee;
       text-align: center;
@@ -787,7 +788,7 @@ nav.navbar{
     .carousel .card .left-section img{
       height: 100%;
       width: 100%;
-      object-fit: cover;
+      object-fit: contain;
       border-radius: 8px 0 0 8px;
       padding: 3px;
     }
