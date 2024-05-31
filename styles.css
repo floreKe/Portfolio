@@ -20,6 +20,10 @@ body{
     padding: 0;
 }
 
+html, body{
+  height: 100%;
+}
+
 .container{
   position: relative;
   width: 100%;
@@ -593,6 +597,8 @@ nav.navbar{
       position: inherit;
       top: 30px;
       bottom: 10px;
+      font-weight: 800;
+      font-size: 25px;
     }
 
     #skills .block1 p,
@@ -601,8 +607,8 @@ nav.navbar{
     #skills .block4 p{
       position: inherit;
       top: 40px;
-      font-weight: 400;
-      font-size: 15px;
+      font-weight: 500;
+      font-size: 20px;
       text-align: center;
       line-height: 1.5;
       color: #181C23;
